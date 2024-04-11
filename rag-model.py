@@ -33,11 +33,20 @@ We do this with the following architecture:
 %autoreload 2
 
 """
-%load_ext autoreload
-%autoreload 2
-#In this section, we'll load in the LlamaIndex documentation.
+#%load_ext autoreload
+#%autoreload 2
 
 
+import nltk
+import os
+import asyncio
+from llama_index.readers.file import UnstructuredReader
+from pathlib import Path
+from llama_index.core import Document
+import fitz  # PyMuPDF
+from llama_index.llms.openai import OpenAI
+from llama_index.embeddings.openai import OpenAIEmbedding
+from llama_index.core import Settings
 
 
 #from google.colab import drive
