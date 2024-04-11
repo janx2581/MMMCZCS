@@ -1,0 +1,12 @@
+llama-index-core
+llama-index-agent-openai
+llama-index-readers-file
+llama-index-postprocessor-cohere-rerank
+llama-index-llms-openai
+llama-index-embeddings-openai
+unstructured[html]
+nltk
+llama_index.readers.file
+llama-index-question-gen-openai
+PyMuPDF
+streamlit
