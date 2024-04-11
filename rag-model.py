@@ -33,7 +33,8 @@ We do this with the following architecture:
 %autoreload 2
 
 """
-
+%load_ext autoreload
+%autoreload 2
 #In this section, we'll load in the LlamaIndex documentation.
 
 
