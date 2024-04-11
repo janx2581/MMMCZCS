@@ -10,3 +10,5 @@ llama_index.readers.file
 llama-index-question-gen-openai
 PyMuPDF
 streamlit
+load_ext autoreload
+autoreload 2
