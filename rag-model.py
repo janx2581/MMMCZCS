@@ -40,9 +40,10 @@ We do this with the following architecture:
 
 
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
+    
 import nltk
 nltk.download('averaged_perceptron_tagger')
 
@@ -50,10 +51,12 @@ from llama_index.readers.file import UnstructuredReader
 
 reader = UnstructuredReader()
 
+
+
 from pathlib import Path
 
-# Path to your PDF files
-pdf_files_path = Path("/content/drive/MyDrive/MMMCZCS")
+# Path to your PDF files in the current directory of the script
+pdf_files_path = Path(".")
 
 # Gathering all PDF files
 all_pdf_files = list(pdf_files_path.rglob("*.pdf"))
