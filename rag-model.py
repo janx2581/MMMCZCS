@@ -245,6 +245,8 @@ async def build_agents(docs):
 
     return agents_dict, extra_info_dict
 
+
+#Something
 agents_dict, extra_info_dict = await build_agents(docs)
 
 """### Build Retriever-Enabled OpenAI Agent
